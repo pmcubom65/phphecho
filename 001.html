@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8"
+<mata name="title" content="titulo1">
+<meta name="description" content="descripcion1" >
+<meta name="keywords" content="palabras1">
+<title>Mi primera web</title>
+</head>
+<body>
+<div id="capaid">
+<header id="cabeceraid">
+<hgroup>
+<table border="1">
+<tr>
+<td>Caja de texto: </td>
+<td><input type="text" name="cajatextoid" value="10" onblur="alert('Fuera de la caja de texto.')"></input></td>
+<td>Text Area </td>
+<td><textarea name="textarea" id="textread" rows="10" cols="50" onchange="alert('ha habido cambios en el textarea')">1234---
+</textarea></td>
+</tr>
+<tr>
+<td>Color Picker</td>
+
+
+
+<tr>
+<td><h1 id="etiquetaprincipalid">PRUEBA</h1></td>
+<td> <input type="button" name="botonconectar" id="botonconectarid"
+value="conectar" onclick="document.getElementById("otracapa").style.display='block'"></input></td>
+</tr>
+<br>
+<div id="otracapa">
+	<table border="0">
+	<tr>
+	<td> <input type="button" name="botoninvisible" id="botoninvisibleid" value="invisible capa"
+	onclick="document.getElementById("otracapa").style.display='none'">
+	</input></td>
+	</tr>
+	</div>
+</table>
+
+	
+</hgroup>
+</header>
+</div>
+</body>
+</html>
